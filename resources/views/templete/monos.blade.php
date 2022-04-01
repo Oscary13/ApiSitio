@@ -15,27 +15,27 @@
                         <p></p>
 						<h1>--Monos--</h1>
                         <h2>Consulta todos los monos:</h2>
-                        <p>GET => <strong>http://127.0.0.1:8000/api/mono</strong></p>
+                        <p>GET => <strong>http://api-sitio.herokuapp.com/api/mono</strong></p>
                         <h2>Consulta mono por id:</h2>
-                        <p>GET => <strong>http://127.0.0.1:8000/api/mono/{id}</strong></p>
+                        <p>GET => <strong>http://api-sitio.herokuapp.com/api/mono/{id}</strong></p>
                         <h2>Agrega un Mono:</h2>
-                        <p>POST => <strong>http://127.0.0.1:8000/api/mono</strong></p>
+                        <p>POST => <strong>http://api-sitio.herokuapp.com/api/mono</strong></p>
                         <h2>Edita los datos de un mono:</h2>
-                        <p>POST => <strong>http://127.0.0.1:8000/api/mono/{id}</strong></p>
+                        <p>POST => <strong>http://api-sitio.herokuapp.com/api/mono/{id}</strong></p>
                         <h2>Elimina un mono:</h2>
-                        <p>DELETE => <strong>http://127.0.0.1:8000/api/mono/{id}</strong></p>
+                        <p>DELETE => <strong>http://api-sitio.herokuapp.com/api/mono/{id}</strong></p>
                         <br><br>
                         <h1>--Clasificación de Monos--</h1>
                         <h2>Consulta todas las clasificaciones de monos:</h2>
-                        <p>GET => <strong>http://127.0.0.1:8000/api/clasificacion</strong></p>
+                        <p>GET => <strong>http://api-sitio.herokuapp.com/api/clasificacion</strong></p>
                         <h2>Consulta clasificacion por id:</h2>
-                        <p>GET => <strong>http://127.0.0.1:8000/api/clasificacion/{id}</strong></p>
+                        <p>GET => <strong>http://api-sitio.herokuapp.com/api/clasificacion/{id}</strong></p>
                         <h2>Agrega una clasificación:</h2>
-                        <p>POST => <strong>http://127.0.0.1:8000/api/clasificacion</strong></p>
+                        <p>POST => <strong>http://api-sitio.herokuapp.com/api/clasificacion</strong></p>
                         <h2>Edita los datos de una clasificación:</h2>
-                        <p>POST => <strong>http://127.0.0.1:8000/api/clasificacion/{id}</strong></p>
+                        <p>POST => <strong>http://api-sitio.herokuapp.com/api/clasificacion/{id}</strong></p>
                         <h2>Elimina un mono:</h2>
-                        <p>DELETE => <strong>http://127.0.0.1:8000/api/clasificacion/{id}</strong></p>
+                        <p>DELETE => <strong>http://api-sitio.herokuapp.com/api/clasificacion/{id}</strong></p>
 
                         <br><br>
 					</div>
