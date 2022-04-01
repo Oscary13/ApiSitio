@@ -95,7 +95,7 @@
 
         @yield('contenido')
         <!-- Footer -->
-
+        <br><br><br>
         <footer class="footer">
             <div class="container">
 
