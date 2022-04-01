@@ -1,46 +1,48 @@
 @extends('templete.layout.index')
 
 @section('contenido');
-<div class="home">
-            <div class="home_background_container prlx_parent">
-                <div class="home_background prlx" style="background-image:url(images/news_background.jpg)"></div>
-            </div>
-            <div class="home_content">
-                <h1>The News</h1>
-            </div>
-        </div>
+<div class="testimonials page_section">
+		<!-- <div class="testimonials_background" style="background-image:url(images/testimonials_background.jpg)"></div> -->
+		<div class="testimonials_background_container prlx_parent">
+			<div class="testimonials_background prlx" style="background-image:url(https://wallpaperstock.net/wallpapers/thumbs1/26862hd.jpg)"></div>
+		</div>
+		<div class="container">
 
-        <div class="news">
-            <div class="container">
-                <div class="row">
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+                        <br><br>
+                        <p></p>
+						<h1>--Monos--</h1>
+                        <h2>Consulta todos los monos:</h2>
+                        <p>GET => <strong>http://127.0.0.1:8000/api/mono</strong></p>
+                        <h2>Consulta mono por id:</h2>
+                        <p>GET => <strong>http://127.0.0.1:8000/api/mono/{id}</strong></p>
+                        <h2>Agrega un Mono:</h2>
+                        <p>POST => <strong>http://127.0.0.1:8000/api/mono</strong></p>
+                        <h2>Edita los datos de un mono:</h2>
+                        <p>POST => <strong>http://127.0.0.1:8000/api/mono/{id}</strong></p>
+                        <h2>Elimina un mono:</h2>
+                        <p>DELETE => <strong>http://127.0.0.1:8000/api/mono/{id}</strong></p>
+                        <br><br>
+                        <h1>--Clasificación de Monos--</h1>
+                        <h2>Consulta todas las clasificaciones de monos:</h2>
+                        <p>GET => <strong>http://127.0.0.1:8000/api/clasificacion</strong></p>
+                        <h2>Consulta clasificacion por id:</h2>
+                        <p>GET => <strong>http://127.0.0.1:8000/api/clasificacion/{id}</strong></p>
+                        <h2>Agrega una clasificación:</h2>
+                        <p>POST => <strong>http://127.0.0.1:8000/api/clasificacion</strong></p>
+                        <h2>Edita los datos de una clasificación:</h2>
+                        <p>POST => <strong>http://127.0.0.1:8000/api/clasificacion/{id}</strong></p>
+                        <h2>Elimina un mono:</h2>
+                        <p>DELETE => <strong>http://127.0.0.1:8000/api/clasificacion/{id}</strong></p>
 
-                    <!-- News Column -->
-
-                    <div class="col-lg-12">
-
-                        <div class="news_posts">
-                            <!-- News Post -->
+                        <br><br>
+					</div>
+				</div>
+			</div>
 
 
-                            <!-- News Post -->
-                            @foreach ($monos as $mono)
-                            <div class="news_post">
-                                <div class="news_post_image">
-                                    <img src="{{$mono['imagen']}}" alt="https://unsplash.com/@dsmacinnes">
-                                </div> <br />
-                                <div class=" text-dark">
-                                    <h1> {{$mono['nombre']}}</h1>
-                                    <p class="text-dark"> {{$mono['descripcion']}}</p>
-                                </div>
-                            </div>
-                            @endforeach
-                            <!-- News Post -->
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
+		</div>
+	</div>
 @endsection

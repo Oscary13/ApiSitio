@@ -74,10 +74,10 @@
 
 					<div class="col-lg-4 hero_box_col">
 						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
-							<img src="images/professor.svg" class="svg" alt="">
+							<img src="images/monito2.png" class="svg" alt="">
 							<div class="hero_box_content">
-								<h2 class="hero_box_title">Our Teachers</h2>
-								<a href="teachers.html" class="hero_box_link">view more</a>
+								<h2 class="hero_box_title">Consulta API</h2>
+								<a href="{{route('clasificacion2')}}" class="hero_box_link">Leer más..</a>
 							</div>
 						</div>
 					</div>

@@ -9,4 +9,8 @@ class Monos extends Model
 {
     use HasFactory;
     protected $table = 'monos';
+
+    public function clasificacion(){
+        return $this->belongsTo('App\Models\Clasificacion');
+    }
 }

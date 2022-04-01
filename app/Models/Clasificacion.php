@@ -9,4 +9,8 @@ class Clasificacion extends Model
 {
     use HasFactory;
     protected $table = 'clasificacion';
+
+    public function cla(){
+        return $this->hasMany('App\Models\MonoClasificacion');
+    }
 }
