@@ -25,7 +25,7 @@ class MonitosController extends Controller
     public function monosinicio()
     {
         $monos = Monos::all();
-        return view('templete.layout.index', ['monos' => $monos]);
+        return view('templete.inicio', ['monos' => $monos]);
 
     }
 }

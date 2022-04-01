@@ -34,7 +34,7 @@
 			<nav class="main_nav_container">
 				<div class="main_nav">
 					<ul class="main_nav_list">
-						<li class="main_nav_item"><a href="#">home</a></li>
+						<li class="main_nav_item"><a href="{{route('monos2')}}">Inicio</a></li>
 						<li class="main_nav_item"><a href="#">about us</a></li>
 						<li class="main_nav_item"><a href="courses.html">courses</a></li>
 						<li class="main_nav_item"><a href="elements.html">elements</a></li>
@@ -45,7 +45,7 @@
 			</nav>
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
-			
+
 			<span>OBB</span>
 		</div>
 
@@ -68,7 +68,7 @@
 		<div class="menu_inner menu_mm">
 			<div class="menu menu_mm">
 				<ul class="menu_list menu_mm">
-					<li class="menu_item menu_mm"><a href="#">Home</a></li>
+					<li class="menu_item menu_mm"><a href="{{route('monos2')}}">Inicio</a></li>
 					<li class="menu_item menu_mm"><a  href="">About us</a></li>
 					<li class="menu_item menu_mm"><a href="courses.html">Courses</a></li>
 					<li class="menu_item menu_mm"><a href="elements.html">Elements</a></li>
@@ -97,90 +97,7 @@
 
 	<!-- Home -->
 
-	<div class="home">
 
-		<!-- Hero Slider -->
-		<div class="hero_slider_container">
-			<div class="hero_slider owl-carousel">
-
-				<!-- Hero Slide -->
-				<div class="hero_slide">
-					<div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)"></div>
-					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">El mono es un animal que lleva viviendo millones de años en el planeta Tierra.</h1>
-						</div>
-					</div>
-				</div>
-
-				<!-- Hero Slide -->
-				<div class="hero_slide">
-					<div class="hero_slide_background" style="background-image:url(images/22.jpg)"></div>
-					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Guarda un gran parecido en los humanos, tanto en su morfología como en el comportamiento.</h1>
-						</div>
-					</div>
-				</div>
-
-				<!-- Hero Slide -->
-				<div class="hero_slide">
-					<div class="hero_slide_background" style="background-image:url(images/23.jpg)"></div>
-					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Existen más de 260 especies de monos. Hasta el momento, claro.</h1>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="hero_slider_left hero_slider_nav trans_200"><span class="trans_200"><</span></div>
-			<div class="hero_slider_right hero_slider_nav trans_200"><span class="trans_200">></span></div>
-		</div>
-
-	</div>
-
-	<div class="hero_boxes">
-		<div class="hero_boxes_inner">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-lg-4 hero_box_col">
-						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
-							<img src="images/earth-globe.svg" class="svg" alt="">
-							<div class="hero_box_content">
-								<h2 class="hero_box_title">Clasificación</h2>
-                                <a href="{{ route('clasificacion') }}" class="hero_box_link" >leer más..</a>
-							</div>
-
-						</div>
-					</div>
-
-					<div class="col-lg-4 hero_box_col">
-						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
-							<img src="images/books.svg" class="svg" alt="">
-							<div class="hero_box_content">
-								<h2 class="hero_box_title">Monos</h2>
-								<a href="{{ route('monos') }}" class="hero_box_link">Leer más..</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 hero_box_col">
-						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
-							<img src="images/professor.svg" class="svg" alt="">
-							<div class="hero_box_content">
-								<h2 class="hero_box_title">Our Teachers</h2>
-								<a href="teachers.html" class="hero_box_link">view more</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
 
     @yield('contenido')
 	<!-- Footer -->
