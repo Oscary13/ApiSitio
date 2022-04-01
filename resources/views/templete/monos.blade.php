@@ -34,7 +34,7 @@
                         <p>POST => <strong>http://api-sitio.herokuapp.com/api/clasificacion</strong></p>
                         <h2>Edita los datos de una clasificación:</h2>
                         <p>POST => <strong>http://api-sitio.herokuapp.com/api/clasificacion/{id}</strong></p>
-                        <h2>Elimina un mono:</h2>
+                        <h2>Elimina una clasificación:</h2>
                         <p>DELETE => <strong>http://api-sitio.herokuapp.com/api/clasificacion/{id}</strong></p>
 
                         <br><br>
