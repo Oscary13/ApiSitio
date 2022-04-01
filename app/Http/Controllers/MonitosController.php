@@ -35,4 +35,11 @@ class MonitosController extends Controller
         return view('templete.inicio', ['monos' => $monos]);
 
     }
+
+    public function pokeApi()
+    {
+
+        return view('templete.api');
+
+    }
 }

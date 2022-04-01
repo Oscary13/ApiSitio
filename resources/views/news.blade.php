@@ -34,7 +34,7 @@
 				<div class="main_nav">
 					<ul class="main_nav_list">
 						<li class="main_nav_item"><a href="{{route('monos2')}}">Inicio</a></li>
-						<li class="main_nav_item"><a href="#">about us</a></li>
+						<li class="main_nav_item"><a href="{{route('pokeApi')}}">PokéApi</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -64,7 +64,7 @@
 			<div class="menu menu_mm">
 				<ul class="menu_list menu_mm">
 					<li class="menu_item menu_mm"><a href="{{route('monos2')}}">Home</a></li>
-					<li class="menu_item menu_mm"><a  href="">About us</a></li>
+					<li class="main_nav_item"><a href="{{route('pokeApi')}}">PokéApi</a></li>
 				</ul>
 
 				<!-- Menu Social -->

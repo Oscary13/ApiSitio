@@ -22,8 +22,9 @@ use Illuminate\Support\Facades\Route;
  Route::get('/monos', [MonitosController::class, 'monos'])->name('monos');
  Route::get('/clasificacion', [MonitosController::class, 'clasificacion'])->name('clasificacion');
  Route::get('/clasificacion2', [MonitosController::class, 'clasificacionMono'])->name('clasificacion2');
+ Route::get('/pokeApi', [MonitosController::class, 'pokeApi'])->name('pokeApi');
 
- 
+
  Route::get('/', [MonitosController::class, 'monosinicio'])->name('monos2');
 
 //  Route::get('/obb', function () {
